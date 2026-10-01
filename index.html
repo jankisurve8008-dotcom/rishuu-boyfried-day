@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Rishuu 🩷</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff5fa, #ffe0ed, #ffffff);
+    color: #5c3b49;
+    text-align: center;
+}
+
+section {
+    padding: 55px 20px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 52px;
+    color: #e86b9b;
+    margin: 10px;
+}
+
+h2 {
+    color: #d95787;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.small {
+    font-size: 15px;
+    color: #987080;
+}
+
+button {
+    border: none;
+    background: #f28bb3;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #df6795;
+}
+
+.card {
+    background: rgba(255,255,255,0.85);
+    padding: 25px;
+    margin: 18px auto;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(210,100,140,0.15);
+}
+
+.hidden {
+    display: none;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 22px;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.12);
+}
+
+.final {
+    background: #fff;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+
+.heart {
+    font-size: 45px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-grid img {
+        height: 360px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="heart">🩷</div>
+
+    <p class="small">pssst... Rishuu 👀</p>
+
+    <h1>This little website<br>is only for you.</h1>
+
+    <p>
+        Made specially for my favourite Pishuuu 🥺🩷
+    </p>
+
+    <button onclick="document.getElementById('start').scrollIntoView({behavior:'smooth'})">
+        Open it 💌
+    </button>
+</section>
+
+
+<section id="start">
+
+    <h2>Happy Boyfriend Dayyy, Rishuu! 🧸🩷</h2>
+
+    <div class="card">
+        <p>
+            You are officially stuck with me now. 😂
+            <br>
+            No returns, no exchanges, no cancellation policy.
+        </p>
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2>Why are you stuck with me? 🥹</h2>
+
+    <div class="card">
+        <button onclick="showText('one')">Reason #1 👀</button>
+        <p id="one" class="hidden">
+            Because apparently you decided I was worth all my nakhre. 😂🩷
+        </p>
+    </div>
+
+    <div class="card">
+        <button onclick="showText('two')">Reason #2 🧸</button>
+        <p id="two" class="hidden">
+            Because you somehow became my favourite person to annoy.
+        </p>
+    </div>
+
+    <div class="card">
+        <button onclick="showText('three')">Reason #3 🤏🏻</button>
+        <p id="three" class="hidden">
+            Because life became a little more fun with you in it.
+        </p>
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2>Our little photo corner 📸🩷</h2>
+
+    <p class="small">
+        A few memories of two idiots who somehow became a thing. 😂
+    </p>
+
+    <div class="photo-grid">
+
+        <img src="Photos/IMG_20260903.jpg" alt="Our memory">
+
+        <img src="Photos/Snapchat -1246438272.jpg" alt="Our memory">
+
+        <img src="Photos/Snapchat -1799855220.jpg" alt="Our memory">
+
+        <img src="Photos/Snapchat -1839330639.jpg" alt="Our memory">
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2>Rishuu's Official Report Card 📝</h2>
+
+    <div class="card">
+        <p>Being Cute: ⭐⭐⭐⭐⭐</p>
+        <p>Annoying Me: ⭐⭐⭐⭐⭐</p>
+        <p>Making Me Smile: ⭐⭐⭐⭐⭐</p>
+        <p>Handling My Nakhras: ⭐⭐⭐⭐½</p>
+        <p>Being My Pishuuu: ∞/10 🩷</p>
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="final card">
+
+        <div class="heart">🩷</div>
+
+        <h2>One last thing...</h2>
+
+        <p>
+            Thank you for being you.
+            <br><br>
+            For all the calls, jokes, fights, random conversations,
+            annoying moments and cute moments.
+            <br><br>
+            You are very, very special to me, Rishuu.
+        </p>
+
+        <h2>I love youuu, my Pishuuu 🥺🩷</h2>
+
+        <p class="small">
+            Happy Boyfriend Day 💌
+        </p>
+
+    </div>
+
+</section>
+
+
+<script>
+
+function showText(id) {
+    const element = document.getElementById(id);
+
+    if (element.classList.contains("hidden")) {
+        element.classList.remove("hidden");
+    } else {
+        element.classList.add("hidden");
+    }
+}
+
+</script>
+
+</body>
+</html>
